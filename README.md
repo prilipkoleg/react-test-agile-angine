@@ -10,7 +10,8 @@ and go:
 ```
 //localhost:3000
 ```
-##Test task for React.JS
+
+## Test task for React.JS
 
 The goal of this task is to develop web application with a simple user interface utilizing
 React.JS that can create product and save it.
