@@ -1,0 +1,29 @@
+{
+  "name": "agile-angine-react",
+  "version": "0.1.0",
+  "description": "React + Node test",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-scripts": "0.9.5",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^0.16.0",
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server:run": "node server.js",
+    "server:build:run": "npm run build && node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Oleg Prilipko"
+}

@@ -1,0 +1,9 @@
+export const ADD_PRODUCT            = "ADD_PRODUCT";
+export const ADD_PRODUCT_SUCCESS    = "ADD_PRODUCT_SUCCESS";
+export const REMOVE_PRODUCT         = "REMOVE_PRODUCT";
+export const REMOVE_PRODUCT_SUCCESS = "REMOVE_PRODUCT_SUCCESS";
+export const FETCH_PRODUCTS         = "FETCH_PRODUCTS";
+export const FETCH_PRODUCTS_SUCCESS = "FETCH_PRODUCTS_SUCCESS";
+
+export const API_ERROR = "API_ERROR";
+

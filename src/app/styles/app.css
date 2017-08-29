@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*background: -webkit-linear-gradient(left, rgba(0, 227, 159, 0.02), rgba(0, 196, 225, 0.02));
+  background: linear-gradient(to right, rgba(0, 227, 159, 0.02), rgba(0, 196, 225, 0.02));
+  */
+}
+
+/**
+  App
+ */
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 30s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 7px;
+  color: white;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  color: #29c5cc;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+span.color-circle{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+}
+
+/**
+  FormAddProduct
+ */
+form {
+  border: 1px solid #ccc;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+[class*='-error'] {
+  color: #a90000;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/**
+  ProductList
+ */
+.ProductList {
+  text-align: left;
+}
